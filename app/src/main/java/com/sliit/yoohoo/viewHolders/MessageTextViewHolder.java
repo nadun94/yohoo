@@ -18,9 +18,6 @@ import com.sliit.yoohoo.utils.LinkTransformationMethod;
 
 import static com.sliit.yoohoo.adapters.MessageAdapter.MY;
 
-/**
- * Created by mayank on 11/5/17.
- */
 
 public class MessageTextViewHolder extends BaseMessageViewHolder {
     EmojiTextView text;

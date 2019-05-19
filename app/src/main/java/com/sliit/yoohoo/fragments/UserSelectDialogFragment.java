@@ -21,10 +21,6 @@ import com.sliit.yoohoo.models.User;
 
 import java.util.ArrayList;
 
-/**
- * Created by a_man on 01-12-2017.
- */
-
 public class UserSelectDialogFragment extends BaseFullDialogFragment {
     private TextView heading;
     private EditText query;

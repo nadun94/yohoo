@@ -5,9 +5,6 @@ import io.realm.RealmModel;
 import io.realm.annotations.Ignore;
 import io.realm.annotations.RealmClass;
 
-/**
- * Created by a_man on 1/10/2017.
- */
 
 @RealmClass
 public class Chat implements RealmModel {

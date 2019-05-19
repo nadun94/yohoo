@@ -6,10 +6,6 @@ import android.os.Parcelable;
 import io.realm.RealmModel;
 import io.realm.annotations.RealmClass;
 
-/**
- * Created by a_man on 31-12-2017.
- */
-
 @RealmClass
 public class MyString implements Parcelable, RealmModel {
     private String string;

@@ -16,9 +16,6 @@ import java.util.List;
 import ezvcard.property.Email;
 import ezvcard.property.Telephone;
 
-/**
- * Created by a_man on 5/12/2017.
- */
 
 public class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.MyViewHolder> {
     private Context context;

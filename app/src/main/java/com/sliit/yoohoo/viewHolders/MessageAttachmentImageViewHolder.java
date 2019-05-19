@@ -15,9 +15,6 @@ import com.sliit.yoohoo.interfaces.OnMessageItemClick;
 import com.sliit.yoohoo.models.Message;
 import com.sliit.yoohoo.utils.Helper;
 
-/**
- * Created by mayank on 11/5/17.
- */
 
 public class MessageAttachmentImageViewHolder extends BaseMessageViewHolder {
     ImageView image;

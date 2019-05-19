@@ -22,9 +22,6 @@ import com.sliit.yoohoo.views.MyRecyclerView;
 
 import java.util.ArrayList;
 
-/**
- * Created by a_man on 31-12-2017.
- */
 
 public class GroupSelectDialogFragment extends BaseFullDialogFragment {
     private TextView heading;

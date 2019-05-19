@@ -19,9 +19,6 @@ import com.sliit.yoohoo.views.MyRecyclerView;
 
 import java.util.ArrayList;
 
-/**
- * Created by a_man on 6/30/2017.
- */
 
 public class UserSubMediaFragment extends Fragment {
     private static final String ARG_PARAM1 = "param1";

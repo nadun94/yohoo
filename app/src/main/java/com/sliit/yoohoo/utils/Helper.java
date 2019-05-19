@@ -37,9 +37,6 @@ import io.realm.RealmConfiguration;
 import io.realm.RealmObject;
 import io.realm.RealmQuery;
 
-/**
- * Created by a_man on 5/5/2017.
- */
 
 public class Helper {
     private static final String USER = "USER";

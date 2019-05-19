@@ -19,9 +19,6 @@ import com.sliit.yoohoo.utils.Helper;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/**
- * Created by mayank on 11/5/17.
- */
 
 public class MessageAttachmentLocationViewHolder extends BaseMessageViewHolder {
     TextView text;

@@ -17,9 +17,6 @@ import com.sliit.yoohoo.models.User;
 
 import java.util.ArrayList;
 
-/**
- * Created by a_man on 31-12-2017.
- */
 
 public class GroupMembersSelectDialogFragment extends BaseFullDialogFragment implements GroupNewParticipantsAdapter.ParticipantClickListener{
     private ArrayList<User> selectedUsers, myUsers;

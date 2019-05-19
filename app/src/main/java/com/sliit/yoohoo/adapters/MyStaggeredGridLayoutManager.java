@@ -6,9 +6,6 @@ import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by a_man on 31-12-2017.
- */
 
 public class MyStaggeredGridLayoutManager extends StaggeredGridLayoutManager {
 

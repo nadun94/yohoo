@@ -53,9 +53,6 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by a_man on 31-12-2017.
- */
 
 public class GroupCreateDialogFragment extends BaseFullDialogFragment implements UserGroupSelectionDismissListener, ImagePickerCallback {
     protected String[] permissionsCamera = {Manifest.permission.CAMERA, Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE};

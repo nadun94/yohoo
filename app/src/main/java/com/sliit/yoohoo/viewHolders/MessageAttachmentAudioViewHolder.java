@@ -25,9 +25,6 @@ import com.sliit.yoohoo.utils.MyFileProvider;
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by mayank on 11/5/17.
- */
 
 public class MessageAttachmentAudioViewHolder extends BaseMessageViewHolder {
     TextView text;

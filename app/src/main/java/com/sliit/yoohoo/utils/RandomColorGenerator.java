@@ -4,9 +4,6 @@ import com.sliit.yoohoo.R;
 
 import java.util.Random;
 
-/**
- * Created by mayank on 9/5/17.
- */
 
 public class RandomColorGenerator {
 

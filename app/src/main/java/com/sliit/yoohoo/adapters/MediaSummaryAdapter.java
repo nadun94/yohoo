@@ -33,9 +33,6 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by a_man on 6/28/2017.
- */
 
 public class MediaSummaryAdapter extends RecyclerView.Adapter<MediaSummaryAdapter.MyViewHolder> {
     private Context context;

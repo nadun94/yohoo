@@ -3,9 +3,6 @@ package com.sliit.yoohoo.models;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-/**
- * Created by mayank on 11/5/17.
- */
 
 public class DownloadFileEvent implements Parcelable {
     private Attachment attachment;

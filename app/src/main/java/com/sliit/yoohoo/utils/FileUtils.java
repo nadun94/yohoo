@@ -25,9 +25,6 @@ import java.nio.channels.FileChannel;
 import java.text.DecimalFormat;
 import java.util.Comparator;
 
-/**
- * Created by ujjwal on 8/23/16.
- */
 
 public class FileUtils {
     public static final String MIME_TYPE_AUDIO = "audio/*";

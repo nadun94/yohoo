@@ -9,10 +9,6 @@ import android.view.ViewGroup;
 
 import com.sliit.yoohoo.R;
 
-/**
- * Created by a_man on 01-01-2018.
- */
-
 public class PrivacyPolicyDialogFragment extends BaseFullDialogFragment {
     @Nullable
     @Override

@@ -24,9 +24,6 @@ import com.sliit.yoohoo.viewHolders.MessageTypingViewHolder;
 
 import java.util.ArrayList;
 
-/**
- * Created by a_man on 1/10/2017.
- */
 
 public class MessageAdapter extends RecyclerView.Adapter<BaseMessageViewHolder> {
     private OnMessageItemClick itemClickListener;

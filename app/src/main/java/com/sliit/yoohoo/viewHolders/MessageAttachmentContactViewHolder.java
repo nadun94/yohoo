@@ -32,9 +32,6 @@ import ezvcard.Ezvcard;
 import ezvcard.VCard;
 import ezvcard.io.chain.ChainingTextStringParser;
 
-/**
- * Created by mayank on 11/5/17.
- */
 
 public class MessageAttachmentContactViewHolder extends BaseMessageViewHolder {
     TextView text;

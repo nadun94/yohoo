@@ -5,9 +5,6 @@ import android.support.annotation.IntDef;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-/**
- * Created by mayank on 10/5/17.
- */
 
 public class AttachmentTypes {
 

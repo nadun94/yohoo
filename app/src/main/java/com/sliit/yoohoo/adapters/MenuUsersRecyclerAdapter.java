@@ -23,9 +23,6 @@ import com.sliit.yoohoo.models.User;
 
 import java.util.ArrayList;
 
-/**
- * Created by mayank on 7/5/17.
- */
 
 public class MenuUsersRecyclerAdapter extends RecyclerView.Adapter<MenuUsersRecyclerAdapter.BaseViewHolder> implements Filterable {
     private Context context;

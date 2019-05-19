@@ -20,9 +20,6 @@ import com.sliit.yoohoo.utils.Helper;
 
 import static com.sliit.yoohoo.adapters.MessageAdapter.OTHER;
 
-/**
- * Created by mayank on 11/5/17.
- */
 
 public class BaseMessageViewHolder extends RecyclerView.ViewHolder {
     protected static int lastPosition;

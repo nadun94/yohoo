@@ -20,9 +20,6 @@ import com.sliit.yoohoo.models.Group;
 
 import java.util.ArrayList;
 
-/**
- * Created by a_man on 31-12-2017.
- */
 
 public class GroupsAdapter extends RecyclerView.Adapter<GroupsAdapter.MyViewHolder> implements Filterable {
     private Context context;

@@ -13,9 +13,7 @@ import io.realm.annotations.Ignore;
 import io.realm.annotations.PrimaryKey;
 import io.realm.annotations.RealmClass;
 
-/**
- * Created by a_man on 30-12-2017.
- */
+
 
 @RealmClass
 public class Group implements Parcelable, RealmModel {

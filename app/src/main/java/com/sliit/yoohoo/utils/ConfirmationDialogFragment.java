@@ -14,9 +14,6 @@ import android.widget.TextView;
 
 import com.sliit.yoohoo.R;
 
-/**
- * Created by a_man on 04-12-2017.
- */
 
 public class ConfirmationDialogFragment extends DialogFragment {
     private String title, message;

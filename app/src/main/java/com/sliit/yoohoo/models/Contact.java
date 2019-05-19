@@ -3,9 +3,6 @@ package com.sliit.yoohoo.models;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-/**
- * Created by a_man on 10-Aug-17.
- */
 
 public class Contact implements Parcelable {
     private String phoneNumber, name;

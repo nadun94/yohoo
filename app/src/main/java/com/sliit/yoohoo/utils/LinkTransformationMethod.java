@@ -9,9 +9,6 @@ import android.text.util.Linkify;
 import android.view.View;
 import android.widget.TextView;
 
-/**
- * Created by a_man on 11-01-2018.
- */
 
 public class LinkTransformationMethod implements TransformationMethod {
     @Override

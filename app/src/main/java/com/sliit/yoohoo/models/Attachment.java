@@ -6,9 +6,6 @@ import android.os.Parcelable;
 import io.realm.RealmModel;
 import io.realm.annotations.RealmClass;
 
-/**
- * Created by mayank on 11/5/17.
- */
 
 @RealmClass
 public class Attachment implements Parcelable, RealmModel {

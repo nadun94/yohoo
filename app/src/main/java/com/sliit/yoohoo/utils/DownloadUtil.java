@@ -15,9 +15,6 @@ import com.sliit.yoohoo.models.DownloadFileEvent;
 
 import java.io.File;
 
-/**
- * Created by mayank on 11/5/17.
- */
 
 public class DownloadUtil {
 

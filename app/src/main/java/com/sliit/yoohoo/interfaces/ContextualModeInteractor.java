@@ -1,8 +1,5 @@
 package com.sliit.yoohoo.interfaces;
 
-/**
- * Created by a_man on 02-12-2017.
- */
 
 public interface ContextualModeInteractor {
     void enableContextualMode();

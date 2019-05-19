@@ -1,9 +1,5 @@
 package com.sliit.yoohoo.models;
 
-/**
- * Created by a_man on 08-11-2017.
- */
-
 public class Country {
     private String code;
     private String name;

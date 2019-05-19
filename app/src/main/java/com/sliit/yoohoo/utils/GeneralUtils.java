@@ -39,9 +39,6 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
 
-/**
- * Created by mayank on 11/7/16.
- */
 public class GeneralUtils {
 
     private static String lastFileName = "";

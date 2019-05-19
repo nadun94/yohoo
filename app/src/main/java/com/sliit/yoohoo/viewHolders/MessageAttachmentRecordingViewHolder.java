@@ -23,10 +23,6 @@ import com.sliit.yoohoo.utils.Helper;
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by a_man on 02-02-2018.
- */
-
 public class MessageAttachmentRecordingViewHolder extends BaseMessageViewHolder {
     TextView text;
     TextView durationOrSize;

@@ -22,9 +22,6 @@ import com.sliit.yoohoo.utils.MyFileProvider;
 
 import java.io.File;
 
-/**
- * Created by mayank on 11/5/17.
- */
 
 public class MessageAttachmentDocumentViewHolder extends BaseMessageViewHolder {
     TextView fileExtention;

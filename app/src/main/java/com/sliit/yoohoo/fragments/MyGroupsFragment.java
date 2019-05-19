@@ -29,10 +29,6 @@ import io.realm.RealmQuery;
 import io.realm.RealmResults;
 import io.realm.Sort;
 
-/**
- * Created by a_man on 30-12-2017.
- */
-
 public class MyGroupsFragment extends Fragment {
     private MyRecyclerView recyclerView;
     private ChatAdapter chatAdapter;

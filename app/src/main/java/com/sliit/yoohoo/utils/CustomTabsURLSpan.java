@@ -4,10 +4,6 @@ import android.os.Parcel;
 import android.text.style.URLSpan;
 import android.view.View;
 
-/**
- * Created by a_man on 11-01-2018.
- */
-
 public class CustomTabsURLSpan extends URLSpan {
     public CustomTabsURLSpan(String url) {
         super(url);

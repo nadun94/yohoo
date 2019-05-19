@@ -12,9 +12,6 @@ import android.view.Window;
 
 import com.sliit.yoohoo.interfaces.UserGroupSelectionDismissListener;
 
-/**
- * Created by a_man on 31-12-2017.
- */
 
 public class BaseFullDialogFragment extends DialogFragment {
     protected UserGroupSelectionDismissListener dismissListener;

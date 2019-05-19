@@ -2,9 +2,6 @@ package com.sliit.yoohoo.interfaces;
 
 import com.sliit.yoohoo.models.Message;
 
-/**
- * Created by a_man on 5/14/2017.
- */
 
 public interface OnMessageItemClick {
     void OnMessageClick(Message message, int position);

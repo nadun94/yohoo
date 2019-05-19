@@ -18,9 +18,6 @@ import com.sliit.yoohoo.models.User;
 
 import java.util.ArrayList;
 
-/**
- * Created by a_man on 31-12-2017.
- */
 
 public class GroupNewParticipantsAdapter extends RecyclerView.Adapter<GroupNewParticipantsAdapter.MyViewHolder> {
     private User userMe;

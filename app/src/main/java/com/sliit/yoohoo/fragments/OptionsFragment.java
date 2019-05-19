@@ -20,10 +20,6 @@ import com.sliit.yoohoo.services.SinchService;
 import com.sliit.yoohoo.utils.ConfirmationDialogFragment;
 import com.sliit.yoohoo.utils.Helper;
 
-/**
- * Created by a_man on 01-01-2018.
- */
-
 public class OptionsFragment extends BaseFullDialogFragment {
     private static String CONFIRM_TAG = "confirmtag";
     private static String PRIVACY_TAG = "privacytag";

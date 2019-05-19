@@ -5,9 +5,6 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
 
-/**
- * Created by a_man on 5/5/2017.
- */
 
 public class SharedPreferenceHelper {
     private Context mContext;

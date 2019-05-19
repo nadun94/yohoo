@@ -21,9 +21,6 @@ import com.sliit.yoohoo.utils.Helper;
 
 import java.util.ArrayList;
 
-/**
- * Created by a_man on 5/10/2017.
- */
 
 public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.MyViewHolder> {
     private Context context;
