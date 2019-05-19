@@ -28,7 +28,7 @@ import java.io.File;
 
 import ezvcard.Ezvcard;
 import ezvcard.VCard;
-
+// This class handles the user's contact view functionality
 public class ContactViewerActivity extends AppCompatActivity {
     private ImageView contactImage;
     private TextView contactName;

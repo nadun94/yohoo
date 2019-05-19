@@ -10,6 +10,7 @@ import com.google.firebase.messaging.RemoteMessage;
 import com.sliit.yoohoo.utils.Helper;
 
 public class MyFirebaseMessagingService extends FirebaseMessagingService {
+    // trigger the alarm when message has been received
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
         super.onMessageReceived(remoteMessage);

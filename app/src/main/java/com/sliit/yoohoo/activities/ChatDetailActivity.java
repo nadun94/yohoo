@@ -104,6 +104,7 @@ public class ChatDetailActivity extends BaseActivity implements OnUserDetailFrag
         //doNothing
     }
 
+    // update user
     @Override
     void userUpdated(User valueUser) {
         if (user != null && user.getId().equals(valueUser.getId())) {
@@ -117,6 +118,7 @@ public class ChatDetailActivity extends BaseActivity implements OnUserDetailFrag
         }
     }
 
+    // update group info
     @Override
     void groupUpdated(Group valueGroup) {
         if (group != null && group.getId().equals(valueGroup.getId())) {
@@ -274,6 +276,7 @@ public class ChatDetailActivity extends BaseActivity implements OnUserDetailFrag
         }
     }
 
+    // user display picture upload
     private void userImageUploadTask(final File fileToUpload, @AttachmentTypes.AttachmentType final int attachmentType, final Attachment attachment) {
         final StorageReference storageReference = FirebaseStorage.getInstance().getReference()
                 .child(getString(R.string.app_name))
@@ -391,6 +394,7 @@ public class ChatDetailActivity extends BaseActivity implements OnUserDetailFrag
         setUserData();
     }
 
+    // set user data to the ui elements
     private void setUserData() {
         if (user != null) {
             userName.setCompoundDrawablesWithIntrinsicBounds(user.isOnline() ? R.drawable.ring_green : 0, 0, 0, 0);

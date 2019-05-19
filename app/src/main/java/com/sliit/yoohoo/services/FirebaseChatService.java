@@ -53,6 +53,7 @@ import io.realm.RealmList;
 import io.realm.RealmObject;
 import io.realm.RealmResults;
 
+// This class uses the firebase SDK and MessageKit to implement the message service
 public class FirebaseChatService extends Service {
     private static final String CHANNEL_ID_MAIN = "my_channel_01";
     private static final String CHANNEL_ID_GROUP = "my_channel_02";

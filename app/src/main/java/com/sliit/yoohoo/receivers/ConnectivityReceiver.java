@@ -22,6 +22,7 @@ public class ConnectivityReceiver extends BroadcastReceiver {
         cm = (ConnectivityManager) applicationContext.getSystemService(Context.CONNECTIVITY_SERVICE);
     }
 
+
     @Override
     public void onReceive(Context context, Intent arg1) {
         ConnectivityManager cm = (ConnectivityManager) context
@@ -38,6 +39,7 @@ public class ConnectivityReceiver extends BroadcastReceiver {
         }
     }
 
+    // check network connectivity
     public static boolean isConnected() {
         NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
         return activeNetwork != null

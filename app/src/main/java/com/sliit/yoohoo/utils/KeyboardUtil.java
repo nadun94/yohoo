@@ -6,7 +6,7 @@ import android.os.Handler;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 
-
+// keyboard handling utility class
 public class KeyboardUtil {
 
     private static KeyboardUtil keyboardUtil;

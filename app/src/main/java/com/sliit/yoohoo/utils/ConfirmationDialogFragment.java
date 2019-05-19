@@ -14,7 +14,7 @@ import android.widget.TextView;
 
 import com.sliit.yoohoo.R;
 
-
+// This is a reusable confirmation dialog component
 public class ConfirmationDialogFragment extends DialogFragment {
     private String title, message;
     private View.OnClickListener yesClickListener, noClickListener;

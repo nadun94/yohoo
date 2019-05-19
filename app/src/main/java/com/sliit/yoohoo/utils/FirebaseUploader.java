@@ -19,6 +19,8 @@ import com.iceteck.silicompressorr.SiliCompressor;
 
 import java.io.File;
 
+// Firebase file uploader.
+// used to upload images, audios and videos to the firebase storage bucket
 public class FirebaseUploader {
     private UploadListener uploadListener;
     private UploadTask uploadTask;

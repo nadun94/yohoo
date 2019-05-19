@@ -4,6 +4,7 @@ import com.sliit.yoohoo.R;
 
 import java.util.Random;
 
+// this generates random colors.. so that, if necessary application theme can be changed
 
 public class RandomColorGenerator {
 
