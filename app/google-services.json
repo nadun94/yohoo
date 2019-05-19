@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "650831724797",
+    "firebase_url": "https://ctse-33ca1.firebaseio.com",
+    "project_id": "ctse-33ca1",
+    "storage_bucket": "ctse-33ca1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650831724797:android:ce7eccd0d935b00d",
+        "android_client_info": {
+          "package_name": "com.sliit.yoohoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650831724797-17ptll10ae7r1e6ur1c1qou2tq1gqjjk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sliit.yoohoo",
+            "certificate_hash": "37aacc019c9a736d53a6137d18023b9ebb292c1f"
+          }
+        },
+        {
+          "client_id": "650831724797-pn4ounosn35s9a988ca7sbav7b0qakbd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX3F74SxBPQ3ytToxPx2ULHCRzxMW7Z1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650831724797-pn4ounosn35s9a988ca7sbav7b0qakbd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
