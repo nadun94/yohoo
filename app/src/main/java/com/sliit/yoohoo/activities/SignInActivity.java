@@ -153,6 +153,7 @@ public class SignInActivity extends AppCompatActivity {
                         signInWithPhoneAuthCredential(phoneAuthCredential);
                     }
 
+                    // toast message when text message code verification failed
                     @Override
                     public void onVerificationFailed(FirebaseException e) {
                         authInProgress = false;
@@ -185,6 +186,7 @@ public class SignInActivity extends AppCompatActivity {
         startCountdown();
     }
 
+    // sign in using firebase authentication for text messages
     private void signInWithPhoneAuthCredential(PhoneAuthCredential phoneAuthCredential) {
         showProgress(2);
         mAuth.signInWithCredential(phoneAuthCredential).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
@@ -203,6 +205,7 @@ public class SignInActivity extends AppCompatActivity {
         });
     }
 
+    // login to the app after referring to the realtime firebase database
     private void login() {
         authInProgress = true;
         FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
@@ -237,6 +240,7 @@ public class SignInActivity extends AppCompatActivity {
 
     }
 
+    // create user in realtime firebase database
     private void createUser(final User newUser) {
         userRef.setValue(newUser).addOnSuccessListener(new OnSuccessListener<Void>() {
             @Override
@@ -305,7 +309,7 @@ public class SignInActivity extends AppCompatActivity {
             }
         }.start();
     }
-    // ge
+    // generate country code for registration
     private void setupCountryCodes() {
         ArrayList<Country> countries = getCountries();
         if (countries != null) {
